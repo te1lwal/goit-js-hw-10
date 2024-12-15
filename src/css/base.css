@@ -30,3 +30,22 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.nav-link {
+  text-transform: uppercase;
+  width: 75px;
+  display: block;
+  text-align: center;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #4e75ff;
+}
